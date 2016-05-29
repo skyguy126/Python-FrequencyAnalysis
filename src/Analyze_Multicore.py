@@ -112,8 +112,10 @@ def main():
         
 if __name__=="__main__":
     NUM_OF_SAMPLES = 1500
-    #set to -1 for all words
+
+    #set to -1 to use all words (not recommended)
     NUM_TOP_WORDS = -1
+    
     NUM_INTERVALS = 100
     NUM_PROCESSES = 8
     ALPHA_VALUE = 0.05
