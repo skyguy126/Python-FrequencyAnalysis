@@ -4,7 +4,11 @@
 
 ## Usage
 
-### Step 1: Download
+### Step 1: Setup
+
+Clone this repository and create two directories inside the `src` folder called `books` and `temp` respectively.
+
+### Step 2: Download
 
 This will download books in plain text format (will automatically strip headers) from Project Gutenberg.
 
@@ -20,7 +24,11 @@ The files will be downloaded to the `temp` directory.
 
 Requires BeautifulSoup.
 
-### Step 2: Analyze
+#### Options
+
+You may edit the offset for Project Gutenberg in the `Downloader_Config.ini` (This value is auto updated).
+
+### Step 3: Analyze
 
 This will generate a set of confidence intervals.
 
