@@ -22,7 +22,7 @@ Press a key at anytime to exit (NOTE: Program will only exit once current pass i
 
 The files will be downloaded to the `temp` directory.
 
-Requires BeautifulSoup.
+*Requires BeautifulSoup.*
 
 #### Options
 
@@ -38,7 +38,7 @@ python Analyze_Multicore.py
 
 Make sure specified books are in the `books` directory.
 
-Output will be saved to `conf.txt`
+Output will be saved to `conf.txt`.
 
 #### Options
 
@@ -71,3 +71,5 @@ Alpha value for confidence interval.
 '''
 ALPHA_VALUE = 0.05
 ```
+
+*Requires statsmodels.api, numpy, matplotlib.*
