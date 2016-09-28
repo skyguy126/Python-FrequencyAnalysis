@@ -1,4 +1,4 @@
-# Python_FrequencyAnalysis
+# **Python_FrequencyAnalysis**
 
 **A simple script to prove Zipf's law.**
 
@@ -6,7 +6,7 @@
 
 ### Step 1: Setup
 
-Clone this repository and create two directories inside the `src` folder called `books` and `temp` respectively.
+Clone this repository and create two directories inside the `src` folder named `books` and `temp`.
 
 ### Step 2: Download
 
@@ -26,7 +26,7 @@ The files will be downloaded to the `temp` directory.
 
 #### Options
 
-You may edit the offset for Project Gutenberg in the `Downloader_Config.ini` (This value is auto updated).
+You may edit the offset for Project Gutenberg in the `Downloader_Config.ini` (This value is auto-updated).
 
 ### Step 3: Analyze
 
@@ -73,3 +73,6 @@ ALPHA_VALUE = 0.05
 ```
 
 *Requires statsmodels.api, numpy, matplotlib.*
+
+### Presentation
+[Google Slides](https://docs.google.com/presentation/d/17swH8eZlLc9Ui8GqVKJfDptICacmxzMZ78Bg92nCtw4/edit?usp=sharing)
